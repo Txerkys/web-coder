@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./grafica/favicon-16x16.png">
+    <link rel="stylesheet" href="estilo entrega.css">
+    <title>Formulario</title>
+</head>
+
+<body class="color">
+    <header>
+        <div id="menu">
+            <ul>
+               
+                <li><a href="index.html"><img src="./grafica/COmer.png" width="200"></a></li>
+                <li><a class="menuLinks" href="Lo mejor del mes.html">Lo mejor del mes</a></li>
+                
+                <li><a class="menuLinks" href="Mas votados.html">Más votados</a></li>
+                <li><a class="menuLinks" href="Los especialistas.html">Los especialistas</a></li>
+                <li class="contact"><a class="menuLinks" href="contacto.html">Contacto</a></li>
+    
+    
+            </ul>
+    </header><br>
+    <main>
+        <fieldset>
+            <div class="mapa">
+            <form action="">
+                <div>
+                    <label for="nombre">Completa tu nombre</label>
+                    <input type="text" name="nombre" placeholder="Jorge">
+                </div><br>
+                <div>
+                    <label for="nombre">Completa tu apellido</label>
+                    <input type="text" name="apellido" placeholder="Sanchez">
+                </div><br>
+                <div>
+                    <label for="mail">Escribe tu mail</label>
+                    <input type="email" name="e-mail" placeholder="Sanchez@gmail.com" required>
+                </div><br>
+                <div>
+                    <label for="password">Password</label>
+                    <input type="password" name="Password">
+                </div><br>
+                <div>
+                    <label for="comentario"> Escribe tu comentario</label><br>
+                    <textarea name="comentario" id="" cols="30" rows="10"></textarea>
+                </div><br>
+                <div>
+                    <label for="pais">Elige tu país</label>
+                    <select name="País" id="">
+                        <option value="argentina">ARGENTINA</option>
+                        <option value="uruguay">URUGUAY</option>
+                        <option value="peru">PERU</option>
+                    </select>
+
+                </div><br>
+                <div>
+                    <label for="sexo">Género</label>
+                    <input type="radio" name="sexo" value="mujer">MUJER
+                    <input type="radio" name="sexo" value="mujer">HOMBRE
+                    <input type="radio" name="sexo" value="mujer">NO BINARIO
+                </div><br>
+                <div>
+                    <input type="submit" value="ENVIAR">
+                </div><br>
+                <div>
+                    <input type="reset" value="BORRAR">
+                </div>
+            </div>
+            </form>
+        </fieldset>
+    </main>
+</body>
+
+</html>
